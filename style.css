@@ -46,6 +46,7 @@ html {
   font-family: Arial;
   font-size: 15px;
   text-align: center;
+  color: #000000;
 }
 
 .banner {
@@ -73,14 +74,20 @@ h3{
   padding:14px;
   height:70px;
   font-family: Arial;
-  width:1849px;
-  margin-right:15px;
+  width:1859px;
+  margin-right:5px;
 
 }
 
 .centered {
   position: absolute;
-  top: 5.5%;
+  top: 6%;
   left: 12%;
   transform: translate(-50%, -50%);
+}
+
+.info p {
+  font-size: 20px;
+  font-family: Arial;
+  color: lightgrey;
 }
