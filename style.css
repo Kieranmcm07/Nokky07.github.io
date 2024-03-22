@@ -1,6 +1,7 @@
 html {
   background: #000000;
 }
+
 .heading {
   font-family: Arial;
   font-weight: bold;
@@ -37,9 +38,12 @@ html {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+  font-family: Arial;
 }
 
-.button:hover {opacity: 1}
+.button:hover {
+  opacity: 1
+}
 
 .end {
   background: #FF6600;
@@ -59,24 +63,23 @@ html {
   text-align: center;
 }
 
-h4{
+h4 {
   font-size: 30px;
 }
 
-h3{
-  font-size:25;
+h3 {
+  font-size: 25;
 }
 
 .top-banner {
   float: right;
   display: inline-block;
   background: #FF6600;
-  padding:14px;
-  height:70px;
+  padding: 14px;
+  height: 70px;
   font-family: Arial;
-  width:1859px;
-  margin-right:5px;
-
+  width: 1859px;
+  margin-right: 5px;
 }
 
 .centered {
@@ -90,4 +93,29 @@ h3{
   font-size: 20px;
   font-family: Arial;
   color: lightgrey;
+  text-align: left;
+}
+
+.info h4 {
+  text-align: left;
+}
+
+.banner-button {
+  background-color: #CF5300;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial;
+}
+
+.banner-button:hover {
+  opacity: 1
 }
