@@ -5,7 +5,7 @@ html {
 .heading {
   font-family: Arial;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
   margin-top: 50px;
   color: #FF6600;
@@ -14,7 +14,7 @@ html {
 .heading2 {
   font-family: Arial;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 12.5px;
   text-align: center;
   margin-top: 50px;
   color: #FF6600;
@@ -42,7 +42,8 @@ html {
 }
 
 .button:hover {
-  opacity: 1
+  opacity: 1;
+  border-radius: 12px;
 }
 
 .end {
@@ -64,33 +65,35 @@ html {
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 h3 {
-  font-size: 25;
+  font-size: 12.5;
 }
 
 .top-banner {
-  float: right;
   display: inline-block;
   background: #FF6600;
   padding: 14px;
   height: 70px;
   font-family: Arial;
-  width: 1859px;
+  width: 100%;
   margin-right: 5px;
 }
 
+.top-banner img span {
+  top: 10px;
+}
 .centered {
   position: absolute;
-  top: 6%;
-  left: 12%;
+  top: 50px;
+  left: 17%;
   transform: translate(-50%, -50%);
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial;
   color: lightgrey;
   text-align: left;
@@ -117,5 +120,6 @@ h3 {
 }
 
 .banner-button:hover {
-  opacity: 1
+  opacity: 1;
+  border-radius: 12px;
 }
