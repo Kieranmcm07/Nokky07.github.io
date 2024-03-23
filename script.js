@@ -5,7 +5,8 @@ const typed = new Typed(".auto-type", {
     "Gaming Information.",
     "Games."
   ],
-  typeSpeed: 100,
-  backSpeed: 100,
+  typeSpeed: 150,
+  backSpeed: 150,
   loop: true,
+  
 });
