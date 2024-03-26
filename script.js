@@ -18,7 +18,5 @@ const typed = new Typed(".auto-type", {
   typeSpeed: 150,
   backSpeed: 150,
   loop: true,
-
 });
-
 console.log("Welcome to gameInfo.com")
