@@ -2,6 +2,8 @@ html {
   background: #212121;
 }
 
+/* Start of Text Appearence */
+
 .heading {
   font-family: Arial;
   font-weight: bold;
@@ -25,6 +27,18 @@ html {
   text-align: center;
 }
 
+h4 {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 12.5;
+}
+
+/* End of Text Appearence */
+
+/* Start of CSS Button Design */
+
 .button {
   background-color: #FF6600;
   border: none;
@@ -44,64 +58,6 @@ html {
 .button:hover {
   opacity: 1;
   border-radius: 12px;
-}
-
-.end {
-  background: #121212;
-  font-family: Arial;
-  font-size: 15px;
-  text-align: center;
-  color: #fe890b;
-}
-
-.banner {
-  clear: both;
-  text-align: center;
-  margin-top: 100px;
-}
-
-#icon {
-  text-align: center;
-}
-
-h4 {
-  font-size: 15px;
-}
-
-h3 {
-  font-size: 12.5;
-}
-
-.top-banner {
-  display: inline-block;
-  background: #121212;
-  padding: 14px;
-  height: 70px;
-  font-family: Arial;
-  width: 100%;
-  margin-right: 5px;
-}
-
-.top-banner img span {
-  top: 10px;
-}
-
-.centered {
-  position: absolute;
-  top: 50px;
-  left: 17%;
-  transform: translate(-50%, -50%);
-}
-
-.info p {
-  font-size: 16px;
-  font-family: Arial;
-  color: lightgrey;
-  text-align: left;
-}
-
-.info h4 {
-  text-align: left;
 }
 
 .banner-button {
@@ -124,6 +80,68 @@ h3 {
   opacity: 1;
   border-radius: 12px;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* End of CSS Button Design */
+
+/* Start of Footer */
+
+.end {
+  background: #121212;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+  color: #fe890b;
+}
+
+.banner {
+  clear: both;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* End of Footer */
+
+/* Start of Header */
+
+.top-banner {
+  display: inline-block;
+  background: #121212;
+  padding: 14px;
+  height: 70px;
+  font-family: Arial;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.top-banner img span {
+  top: 10px;
+}
+
+/* End of Header */
+
+.centered {
+  position: absolute;
+  top: 50px;
+  left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.info p {
+  font-size: 16px;
+  font-family: Arial;
+  color: lightgrey;
+  text-align: left;
+}
+
+.info h4 {
+  text-align: left;
+}
+
+
 
 span {
   font-family: Arial;
@@ -188,3 +206,18 @@ iframe {
   opacity: 1;
   background: #FF6600;
 }
+
+.rotate {
+  animation: rotation 2.5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
