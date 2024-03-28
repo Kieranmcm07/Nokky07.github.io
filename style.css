@@ -1,5 +1,6 @@
 html {
   background: #212121;
+  overflow-x: hidden;
 }
 
 /* Start of Text Appearence */
@@ -215,7 +216,34 @@ iframe {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
+}
+
+/*#807C7C*/
+
+.spoiler {
+  display: inline-block;
+  background-color: #242424;
+  color: transparent;
+  user-select: none;
+  font-family: "Marcellus SC", 'fallback', Helvetica, Arial, sans-serif;
+  transition: 2.5s;
+  border-radius: 25px;
+}
+
+.spoiler li {
+  border-radius: 25px;
+}
+
+.spoiler:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+
+.la {
+  text-align: center;
 }

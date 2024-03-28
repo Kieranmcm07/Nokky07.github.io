@@ -24,6 +24,7 @@ window.onload = function() {
       e.preventDefault();
     });
   });
+
   function scrambleText(element) {
     if (element.classList.contains("active") == false) {
       let delay = 0;

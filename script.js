@@ -20,3 +20,5 @@ const typed = new Typed(".auto-type", {
   loop: true,
 });
 console.log("Welcome to gameInfo.com")
+
+console.log("This is the console of the website.")
