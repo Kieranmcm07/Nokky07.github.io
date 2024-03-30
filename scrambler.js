@@ -26,6 +26,7 @@ window.onload = function() {
   });
 
   function scrambleText(element) {
+    console.log("Scrambling text for element:", element);
     if (element.classList.contains("active") == false) {
       let delay = 0;
       const elementText = element.innerText;

@@ -1,6 +1,9 @@
+/* This is the background of the website. */
+
 html {
   background: #212121;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Start of Text Appearence */
@@ -33,7 +36,7 @@ h4 {
 }
 
 h3 {
-  font-size: 12.5;
+  font-size: 20px;
 }
 
 /* End of Text Appearence */
@@ -142,8 +145,6 @@ a {
   text-align: left;
 }
 
-
-
 span {
   font-family: Arial;
   color: #fe890b;
@@ -246,4 +247,18 @@ iframe {
 
 .la {
   text-align: center;
+}
+
+.yella {
+  animation: colorchange 1.5s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #FF6600;
+  }
+
+  100% {
+    color: #ffc800;
+  }
 }
