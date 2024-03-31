@@ -12,6 +12,19 @@
 </head>
 
 <body>
+  <script>
+    function addEvent() {
+      document.body.addEventListener("click", playClickSound);
+    }
+    function playClickSound() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+
+    addEvent();
+  </script>
+  <audio id="audio" src="Sounds/click.wav"></audio>
+
   <div class="top-banner">
     <img class="rotate" src="images/home/logo.png" width="75" height="75">
     <a style="float: right; padding-right: 50px;" href="index.html">

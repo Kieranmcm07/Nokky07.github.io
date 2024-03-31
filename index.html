@@ -12,18 +12,19 @@
 </head>
 
 
-<body onload="addEvent()">
+<body>
 
   <script>
     function addEvent() {
-      document.body.addEventListener("click", play)
+      document.body.addEventListener("click", playClickSound);
     }
-    function play() {
+    function playClickSound() {
       var audio = document.getElementById("audio");
       audio.play();
     }
-  </script>
 
+    addEvent();
+  </script>
   <audio id="audio" src="Sounds/click.wav"></audio>
 
   <div class="top-banner">
@@ -35,7 +36,7 @@
       <h1><span class="auto-type"></span></h1>
     </div>
     <div class="heading">
-      <h1>Welcome To <a class="scramble">GameInfo</a></h1>
+      <h1>Welcome To <a class="blah">GameInfo</a></h1>
       <img src="images/home/logo.png">
     </div>
     <div class="heading2">
