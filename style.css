@@ -105,6 +105,11 @@ a {
   clear: both;
   text-align: center;
   margin-top: 100px;
+
+}
+
+.banner img {
+  border-radius: 50px;
 }
 
 /* End of Footer */

@@ -19,6 +19,10 @@ const typed = new Typed(".auto-type", {
   backSpeed: 150,
   loop: true,
 });
-console.log("Welcome to gameInfo.com")
+console.log("Welcome to gameInfo.co.uk.")
 
-console.log("This is the console of the website.")
+console.log("This is the developer console for ensuring that every file is loaded correctly.")
+
+console.log("The script.js file has been successfully loaded and is functioning normally.")
+
+console.log("The scrambler.js file has been successfully loaded and is functioning normally.")
