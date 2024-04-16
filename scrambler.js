@@ -17,7 +17,7 @@ window.onload = function() {
   const characterSelectionMilliseconds = 20;
   const delayMilliseconds = 100;
   const characters = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!/*-><_)(^%£$_`¬"];
-  
+
 
   const randomArrayElement = (arr) => {
     return arr[(arr.length * Math.random()) | 0];
