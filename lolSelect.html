@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameInfo | Counter-Strike</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/home/logo.png">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <script>
+    function addEvent() {
+      document.body.addEventListener("click", playClickSound);
+    }
+    function playClickSound() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+
+    addEvent();
+  </script>
+  <audio id="audio" src="Sounds/click.wav"></audio>
+
+  <div class="top-banner">
+    <img class="rotate" src="images/home/logo.png" width="75" height="75">
+    <a style="float: right; padding-right: 50px;" href="index.html">
+      <button style="float: right;" class="banner-button">Home</button>
+    </a>
+    <div class="centered">
+      <h1><span class="auto-type"></span></h1>
+    </div>
+    <div class="heading">
+      <h1>Select A Counter-Strike!</h1>
+      <img src="images/cs/logo.png" width="318.75" height="256">
+      <div class="heading2">
+        <h2>Select A Game Down Below!</h2>
+      </div>
+      <div class="games" style="text-align: center;"">
+        <br>
+        <a href=" cs16.html">
+        <button class="button">Counter-Strike 1.6</button>
+        </a>
+        <br>
+      </div>
+    </div>
+    <div class="banner">
+
+      <img src="images/cs/bhop.gif" width="750" height="250">
+
+    </div>
+    <footer class="end">
+      <h2>GameInfo</h2>
+      <p>Copyright © 2024 gameinfo.com</p>
+      <p>Created by @Vysotskaze</p>
+      <div class="social">
+
+        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+          href="https://github.com/Nokky07">
+          <p></p><img src="images/Social/github.svg" width="40" height="35">
+        </a>
+
+        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+          <p></p><img src="images/Social/youtube.svg" width="40" height="35">
+        </a>
+
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
