@@ -21,6 +21,6 @@
 
 # Paragraph Formation Assistance.
 
-### ChatGBT.
+### ChatGPT.
 
     https://chat.openai.com/
