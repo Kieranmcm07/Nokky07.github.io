@@ -1,0 +1,5 @@
+Tommorow do rest of img classes preventing dragging and downloading images.
+
+Start from gta5.html as that was the one i was on. 
+
+16/04/24

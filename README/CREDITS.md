@@ -24,3 +24,7 @@
 ### ChatGPT.
 
     https://chat.openai.com/
+
+### Image Drag Prevention
+
+    https://youtu.be/iZnMYtREMBQ?si=8v5Y87z9QnF19SCU
