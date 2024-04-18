@@ -8,21 +8,6 @@
 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-// document.onclick = (event) => applyCursorRippleEffect(event);
-
-// function applyCursorRippleEffect(e) {
-//   const ripple = document.createElement('div');
-
-//   ripple.className = "ripple";
-//   document.body.appendChild(ripple);
-
-//   ripple.style.left = `${e.clientX}px`;
-//   ripple.style.top = `${e.clientY}px`;
-
-//   ripple.style.animation = `ripple-effect .4s linear`;
-//   ripple.onanimationend = () => document.body.removeChild(ripple);
-// }
-
 let isRippleAnimating = false;
 
 document.onclick = (event) => {
