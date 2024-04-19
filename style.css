@@ -184,6 +184,10 @@ iframe {
   color: #FF6600;
 }
 
+.leg {
+  text-align:left
+}
+
 
 
 
@@ -261,6 +265,20 @@ iframe {
 @keyframes colorchange {
   0% {
     color: #FF6600;
+  }
+
+  100% {
+    color: #ffc800;
+  }
+}
+
+.blu {
+  animation: colorchange 1.5s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #007bff;
   }
 
   100% {
