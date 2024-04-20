@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameInfo | </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/home/logo.png">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="ripple.js"></script>
+</head>
+
+<body>
+  <script>
+    function addEvent() {
+      document.body.addEventListener("click", playClickSound);
+    }
+    function playClickSound() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+
+    addEvent();
+  </script>
+  <audio id="audio" src="Sounds/click.wav"></audio>
+
+  <div class="top-banner">
+    <img class="rotate no-select" src="images/home/logo.png" width="75" height="75">
+    <a style="float: right; padding-right: 50px;" href="index.html">
+      <button style="float: right;" class="banner-button">Home</button>
+
+    </a>
+  </div>
+    <div class="centered">
+      <h1><span class="auto-type"></span></h1>
+    </div>
+    <div class="heading">
+      <h1>TeamFight Tactics</h1>
+      <img class="no-select" src="images/witch/.png" height="300px" width="300px">
+    </div>
+
+      <div class="heading2">
+          <h2>Select A Game Down Below!</h2>
+        </div>
+        <div class="games" style="text-align: center;"">
+          <br>
+          <a href=" witch1.html">
+          <button class="button">The Witcher 1</button>
+          </a>
+          <a href=" witch2.html">
+            <button class="button">The Witcher 2: Assassins of Kings </button>
+          </a>
+          <a href=" witch3.html">
+            <button class="button">The Witcher 3: Wild Hunt</button>
+          </a>
+        <div class="info">
+          <h4><u>Summary</u></h4>
+          <p></p>
+
+
+          <h3>The Witcher Trailer</h3>
+
+           <h3>The Witcher Gameplay</h3>
+
+        </div>
+      </div>
+      <div class="banner">
+        <img class="no-select" src="images/witcher/" width="750" height="350">
+      </div>
+      <footer class="end">
+        <h2>GameInfo</h2>
+        <p>Copyright © 2024 gameinfo.com</p>
+        <div class="social">
+
+          <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+            href="https://github.com/Nokky07">
+            <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+          </a>
+
+          <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+            href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+            <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+          </a>
+
+        </div>
+      </footer>
+      <script src="script.js"></script>
+
+    </body>
+
+</html>
