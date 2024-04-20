@@ -17,6 +17,15 @@ html {
   color: #FF6600;
 }
 
+.ULTRA_heading {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  color: #FF6600;
+}
+
 .heading2 {
   font-family: Arial;
   font-weight: bold;
@@ -170,6 +179,20 @@ span {
   border-radius: 12px;
 }
 
+.ULTRA_heading img {
+  width: 1200px;
+  height: 200px;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.ULTRA_heading img:hover {
+  width: 650px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+
 iframe {
   border-radius: 50px;
   border: 0.5em solid #1f1f1f;
@@ -185,7 +208,7 @@ iframe {
 }
 
 .leg {
-  text-align:left
+  text-align: left
 }
 
 
@@ -306,7 +329,7 @@ iframe {
   }
 }
 
-/* Drag Prevention */ 
+/* Drag Prevention */
 
 .no-select {
   user-drag: none;
