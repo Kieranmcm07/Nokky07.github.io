@@ -94,6 +94,29 @@ h3 {
   border-radius: 12px;
 }
 
+.end_button {
+  background-color: #ff9a33;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px auto;
+  /* This will center the button horizontally */
+  opacity: 0.6;
+  transition: 0.5s;
+  display: block;
+  /* Change to block to take full width and center */
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Arial;
+}
+
+.end_button:hover {
+  opacity: 1;
+  border-radius: 12px;
+}
+
 a {
   text-decoration: none;
 }
