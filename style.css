@@ -228,6 +228,19 @@ span {
   border-radius: 12px;
 }
 
+.un_heading img {
+  width: 1020px;
+  height: 262px;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.un_heading img:hover {
+  width: 510px;
+  height: 131px;
+  border-radius: 12px;
+}
+
 .ULTRA_heading img {
   width: 1200px;
   height: 200px;
