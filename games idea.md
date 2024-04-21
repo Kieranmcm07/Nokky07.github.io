@@ -21,7 +21,6 @@ Mortal-Kombat<br>
 Resident Evil<br>
 Red Dead Redemption<br>
 ARK<br>
-Uncharted Series<br>
 Call of Duty<br>
 Payday<br>
 Assassin's Creed<br>
@@ -33,6 +32,7 @@ The Finals<br>
 War Thunder<br>
 Forza<br>
 Need for Speed<br>
+Dota 2<br>
 
 -----------------------
 
