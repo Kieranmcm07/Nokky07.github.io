@@ -240,6 +240,19 @@ span {
   height: 131px;
   border-radius: 12px;
 }
+.rdr_heading img {
+  width: 510px;
+  height: 262px;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.rdr_heading img:hover {
+  width: 455px;
+  height: 161px;
+  border-radius: 12px;
+}
+
 
 .ULTRA_heading img {
   width: 1200px;
