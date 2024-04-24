@@ -426,3 +426,18 @@ iframe {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+/* Search Bar */
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background: #f6f6f6;
+}
+
+.search-input {
+  
+}

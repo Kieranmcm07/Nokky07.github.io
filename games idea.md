@@ -14,12 +14,10 @@ Fallout series <br>
 Skyrim Elder scrolls V<br>
 Half life series<br>
 Town of Salem<br>
-My Summer Car(Vys)<br>
 Mount and Blade(Vys)<br>
 Elden Ring<br>
 Mortal-Kombat<br>
 Resident Evil<br>
-Red Dead Redemption<br>
 ARK<br>
 Call of Duty<br>
 Payday<br>
@@ -27,8 +25,7 @@ Assassin's Creed<br>
 Titanfall<br>
 Hitman<br>
 Plants VS Zombies<br>
-FIFA                             (Gay game but add it if you wish. I certainly will not)<br>
-War Thunder<br>
+FIFA                           (Gay game but add it if you wish. I certainly will not)<br>
 Forza<br>
 Need for Speed<br>
 Dota 2<br>
