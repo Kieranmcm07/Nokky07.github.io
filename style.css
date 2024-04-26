@@ -542,3 +542,12 @@ iframe {
   align-items: center;
   height: 12.5vh;
 }
+
+.notfound {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #FF6600;
+  margin: -25px;
+}
