@@ -434,7 +434,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  background: #fff;
+  background: #323232;
   border-radius: 60px;
   transition: 0.5s;
   box-shadow: 0 0 0 5px #fe7920;
@@ -449,7 +449,7 @@ iframe {
   left: 0;
   width: 60px;
   height: 60px;
-  background: #fff;
+  background: #323232;
   border-radius: 60px;
   display: flex;
   justify-content: center;
@@ -481,11 +481,12 @@ iframe {
 .search .input {
   position: relative;
   width: 300px;
-  height: 60px;
+  height: 45px;
   left: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #323232;
 }
 
 .search .input input {
@@ -499,6 +500,9 @@ iframe {
   padding: 10px 0;
   line-height: 500px;
   padding-top: -10px;
+  background: #323232;
+  color: #fff;
+  font-family: Arial;
 }
 
 .clear {
@@ -517,7 +521,7 @@ iframe {
 .clear::before {
   position: absolute;
   content: '';
-  width: 1px;
+  width: 1.5px;
   height: 15px;
   background: #999;
   transform: rotate(45deg);
@@ -526,18 +530,15 @@ iframe {
 .clear::after {
   position: absolute;
   content: '';
-  width: 1px;
+  width: 1.5px;
   height: 15px;
   background: #999;
   transform: rotate(315deg);
 }
 
-/* Move the search input placeholder text up vertically */
-.search .input input::placeholder {
-  padding-top: 5px;
-  transform: translateY(-50%);/* Adjust the padding value to move the text up */
-}
-/* Move the search input field up vertically */
-.search .input {
-  padding-top: 10px;/* Adjust the padding value to move the input field up */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
 }

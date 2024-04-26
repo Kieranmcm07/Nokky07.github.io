@@ -39,137 +39,155 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
-      </div>
-      <br>
-      <div class="info">
-
-        <h4><u>Summary</u></h4>
-        <p>In the game, players control a skeleton named Skul as he attempts to save demonkind from their enemies, the
-          heroes. The player can remove Skul's head for different skulls, granting new combat abilities across
-          randomly-generated levels. The game received positive reviews on release.</p>
-        <h4><u>Lore</u></h4>
-        <p>The human race attacking the Demon King's castle is nothing new and has happened countless times before. What
-          makes this time different though, is that the Adventurers decided to join forces with the Imperial Army and
-          the 'Hero of Caerleon' to lead a full onslaught in hopes of wiping out the Demons once and for all. They
-          attacked the Demon stronghold with overwhelming numbers and succeeded in its total destruction. All of the
-          demons in the castle were taken prisoner except for one lone skeleton named 'Skul'. Skul: The Hero</p>
-
-
-
-        <h3>Trailer of Skul: The Hero Slayer</h3>
-        <iframe width="1080" height="680"
-          src="https://www.youtube.com/embed/jqk8JL76fXI?loop=1&fs=0&modestbranding=1"></iframe>
-        <h3>Gameplay of Skul: The Hero Slayer</h3>
-        <iframe width="1080" height="680"
-          src="https://www.youtube.com/embed/F5iEJ5vd1Bg?loop=1&fs=0&modestbranding=1"></iframe>
 
       </div>
+    </div>
+    <br>
+    <div class="info">
+
+      <h4><u>Summary</u></h4>
+      <p>In the game, players control a skeleton named Skul as he attempts to save demonkind from their enemies, the
+        heroes. The player can remove Skul's head for different skulls, granting new combat abilities across
+        randomly-generated levels. The game received positive reviews on release.</p>
+      <h4><u>Lore</u></h4>
+      <p>The human race attacking the Demon King's castle is nothing new and has happened countless times before. What
+        makes this time different though, is that the Adventurers decided to join forces with the Imperial Army and
+        the 'Hero of Caerleon' to lead a full onslaught in hopes of wiping out the Demons once and for all. They
+        attacked the Demon stronghold with overwhelming numbers and succeeded in its total destruction. All of the
+        demons in the castle were taken prisoner except for one lone skeleton named 'Skul'. Skul: The Hero</p>
+
+
+
+      <h3>Trailer of Skul: The Hero Slayer</h3>
+      <iframe width="1080" height="680"
+        src="https://www.youtube.com/embed/jqk8JL76fXI?loop=1&fs=0&modestbranding=1"></iframe>
+      <h3>Gameplay of Skul: The Hero Slayer</h3>
+      <iframe width="1080" height="680"
+        src="https://www.youtube.com/embed/F5iEJ5vd1Bg?loop=1&fs=0&modestbranding=1"></iframe>
 
     </div>
+
+  </div>
   </div>
   <div class="banner">
 
@@ -202,6 +220,7 @@
   </footer>
   <script src="script.js"></script>
   <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>

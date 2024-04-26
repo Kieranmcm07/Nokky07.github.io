@@ -39,179 +39,198 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
-      </div>
-      <div class="info">
-        <h4><u>Summary</u></h4>
-        <p>Rust is a multiplayer survival game where players must gather resources, build shelters, and fend off threats
-          from both other players and the environment.</p>
 
-        <h4><u>More Detail</u></h4>
-        <p> In Rust, players start with minimal resources and find themselves stranded on an island filled with harsh
-          environmental conditions, wildlife, and other players. The main objective is survival, which involves
-          gathering resources such as wood, stone, and metal to build shelters, craft tools, and hunt animals for food.
-
-          Base building is a significant aspect of the game, as players construct fortified bases to protect themselves
-          and their loot from other players. Bases can range from simple wooden shelters to elaborate structures made of
-          metal, offering varying degrees of protection and security.
-
-          The game features both player versus player (PvP) and player versus environment (PvE) elements. While players
-          can form alliances and work together, they must also be wary of other players who may attack them for
-          resources or territory. Additionally, the game's environment presents challenges such as radiation zones,
-          harsh weather conditions, and aggressive wildlife that players must contend with.
-
-          Rust has a progression system where players can research and craft advanced items and weapons. Researching new
-          technologies requires finding and using rare resources and components, adding depth to the gameplay and
-          encouraging exploration.
-
-          The game world of Rust is dynamic, with servers regularly wiping to reset the game world and force players to
-          start anew. This ensures that gameplay remains fresh and unpredictable, as players must adapt to new
-          environments and challenges with each wipe cycle.
-
-          Overall, Rust offers a challenging and immersive survival experience that emphasizes player interaction,
-          resource management, base building, and strategic gameplay in a hostile and unforgiving world. Its combination
-          of PvP and PvE elements, dynamic world, and progression system have made it a popular choice among fans of the
-          survival genre.</p>
-        <h3>Trailer of Rust</h3>
-        <iframe width="1080" height="680" src="https://www.youtube.com/embed/LGcECozNXEw"></iframe>
-        <h3>Gameplay of Rust</h3>
-        <iframe width="540" height="340" src="https://www.youtube.com/embed/qhT9ThwoGPM"></iframe>
       </div>
     </div>
-    <div class="banner">
+    <div class="info">
+      <h4><u>Summary</u></h4>
+      <p>Rust is a multiplayer survival game where players must gather resources, build shelters, and fend off threats
+        from both other players and the environment.</p>
 
-      <img class="no-select" src="images/rust/rustbanner.gif" width="750" height="350">
+      <h4><u>More Detail</u></h4>
+      <p> In Rust, players start with minimal resources and find themselves stranded on an island filled with harsh
+        environmental conditions, wildlife, and other players. The main objective is survival, which involves
+        gathering resources such as wood, stone, and metal to build shelters, craft tools, and hunt animals for food.
 
+        Base building is a significant aspect of the game, as players construct fortified bases to protect themselves
+        and their loot from other players. Bases can range from simple wooden shelters to elaborate structures made of
+        metal, offering varying degrees of protection and security.
+
+        The game features both player versus player (PvP) and player versus environment (PvE) elements. While players
+        can form alliances and work together, they must also be wary of other players who may attack them for
+        resources or territory. Additionally, the game's environment presents challenges such as radiation zones,
+        harsh weather conditions, and aggressive wildlife that players must contend with.
+
+        Rust has a progression system where players can research and craft advanced items and weapons. Researching new
+        technologies requires finding and using rare resources and components, adding depth to the gameplay and
+        encouraging exploration.
+
+        The game world of Rust is dynamic, with servers regularly wiping to reset the game world and force players to
+        start anew. This ensures that gameplay remains fresh and unpredictable, as players must adapt to new
+        environments and challenges with each wipe cycle.
+
+        Overall, Rust offers a challenging and immersive survival experience that emphasizes player interaction,
+        resource management, base building, and strategic gameplay in a hostile and unforgiving world. Its combination
+        of PvP and PvE elements, dynamic world, and progression system have made it a popular choice among fans of the
+        survival genre.</p>
+      <h3>Trailer of Rust</h3>
+      <iframe width="1080" height="680" src="https://www.youtube.com/embed/LGcECozNXEw"></iframe>
+      <h3>Gameplay of Rust</h3>
+      <iframe width="540" height="340" src="https://www.youtube.com/embed/qhT9ThwoGPM"></iframe>
     </div>
+  </div>
+  <div class="banner">
 
-    <button class="end_button" onclick="toTop()">Back To Top</button>
+    <img class="no-select" src="images/rust/rustbanner.gif" width="750" height="350">
 
-    <footer class="end">
-      <h2 style="color: ;">GameInfo</h2>
-      <p>Copyright © 2024 gameinfo.com</p>
-      <div class="social">
+  </div>
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://github.com/Nokky07">
-          <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
-        </a>
+  <button class="end_button" onclick="toTop()">Back To Top</button>
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
-          <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
-        </a>
+  <footer class="end">
+    <h2 style="color: ;">GameInfo</h2>
+    <p>Copyright © 2024 gameinfo.com</p>
+    <div class="social">
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.instagram.com/nokky070/">
-          <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
-        </a>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-    <script src="top.js"></script>
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://github.com/Nokky07">
+        <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+        <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.instagram.com/nokky070/">
+        <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>

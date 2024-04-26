@@ -40,196 +40,215 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
-      </div>
-      <div class="info">
-        <h4><u>Summary</u></h4>
-        <p>
-          "Days Gone" is an action-adventure survival horror game developed by Bend Studio and published by Sony
-          Interactive Entertainment. Set in a post-apocalyptic open world, players assume the role of Deacon St. John, a
-          former outlaw-turned-drifter navigating the Pacific Northwest wilderness. The game follows Deacon's quest for
-          redemption and survival in a world overrun by zombie-like creatures known as Freakers. With its compelling
-          narrative, intense combat, and dynamic weather system, "Days Gone" offers a gripping survival experience
-          filled with exploration, crafting, and adrenaline-pumping encounters against both human and Freaker threats.
-        </p>
 
-        <h4><u>More Detail</u></h4>
-        <p>"Days Gone" is a gripping survival horror game that immerses players in a post-apocalyptic world teeming with
-          danger and desperation. Set in the Pacific Northwest, the game unfolds in a vast and atmospheric open world
-          ravaged by a global pandemic that has turned much of humanity into zombie-like creatures known as Freakers.
-
-          Players step into the shoes of Deacon St. John, a rugged and resourceful drifter navigating this unforgiving
-          landscape. Haunted by personal tragedy and seeking redemption, Deacon embarks on a perilous journey filled
-          with harrowing encounters, moral dilemmas, and unexpected alliances.
-
-          At its core, "Days Gone" offers a compelling narrative that unfolds through a series of main story missions,
-          side quests, and dynamic encounters. As players explore the diverse environments of the Pacific Northwest,
-          they uncover the dark secrets of the world and the characters who inhabit it. The game's storyline is driven
-          by Deacon's quest to survive, unravel the mystery of the pandemic, and confront the various factions vying for
-          control in the post-apocalyptic wilderness.
-
-          Survival is paramount in "Days Gone," with players facing constant threats from both human enemies and hordes
-          of Freakers. Combat is intense and visceral, requiring careful planning, resource management, and skillful
-          execution. Players can utilize a variety of weapons, traps, and stealth tactics to outmaneuver and defeat
-          their adversaries.
-
-          In addition to combat, players must also contend with the harsh realities of survival in a hostile
-          environment. This includes scavenging for supplies, managing limited resources such as fuel and ammunition,
-          and repairing and upgrading Deacon's motorcycle, his primary means of transportation and survival.
-
-          The dynamic weather system further adds to the immersive experience, with changing weather conditions
-          impacting gameplay and strategy. Rain can dampen visibility and muffle sound, while fog can obscure threats
-          and create opportunities for stealthy approaches. Players must adapt to these environmental factors as they
-          navigate the treacherous wilderness.
-
-          "Days Gone" also features a robust crafting system, allowing players to craft makeshift weapons, explosives,
-          and survival items using materials found in the world. This adds depth to gameplay, as players must carefully
-          consider their crafting choices and prioritize their resources to survive.
-
-          Overall, "Days Gone" offers a compelling blend of gripping storytelling, intense combat, and immersive
-          survival gameplay, creating an unforgettable experience set in a world on the brink of collapse. With its
-          richly detailed world, engaging characters, and adrenaline-fueled action, "Days Gone" stands as a standout
-          title in the survival horror genre.</p>
-
-        <h3>Trailer of Days Gone</h3>
-        <iframe width="1080" height="680" src="https://www.youtube.com/embed/FKtaOY9lMvM"></iframe>
-        <h3>Gameplay of Days Gone</h3>
-        <iframe width="540" height="340" src="https://www.youtube.com/embed/7feJHXTaXPY"></iframe>
       </div>
     </div>
-    <div class="banner">
-      <img class="no-select" src="images/day/daybanner.gif" width="750" height="350">
+    <div class="info">
+      <h4><u>Summary</u></h4>
+      <p>
+        "Days Gone" is an action-adventure survival horror game developed by Bend Studio and published by Sony
+        Interactive Entertainment. Set in a post-apocalyptic open world, players assume the role of Deacon St. John, a
+        former outlaw-turned-drifter navigating the Pacific Northwest wilderness. The game follows Deacon's quest for
+        redemption and survival in a world overrun by zombie-like creatures known as Freakers. With its compelling
+        narrative, intense combat, and dynamic weather system, "Days Gone" offers a gripping survival experience
+        filled with exploration, crafting, and adrenaline-pumping encounters against both human and Freaker threats.
+      </p>
+
+      <h4><u>More Detail</u></h4>
+      <p>"Days Gone" is a gripping survival horror game that immerses players in a post-apocalyptic world teeming with
+        danger and desperation. Set in the Pacific Northwest, the game unfolds in a vast and atmospheric open world
+        ravaged by a global pandemic that has turned much of humanity into zombie-like creatures known as Freakers.
+
+        Players step into the shoes of Deacon St. John, a rugged and resourceful drifter navigating this unforgiving
+        landscape. Haunted by personal tragedy and seeking redemption, Deacon embarks on a perilous journey filled
+        with harrowing encounters, moral dilemmas, and unexpected alliances.
+
+        At its core, "Days Gone" offers a compelling narrative that unfolds through a series of main story missions,
+        side quests, and dynamic encounters. As players explore the diverse environments of the Pacific Northwest,
+        they uncover the dark secrets of the world and the characters who inhabit it. The game's storyline is driven
+        by Deacon's quest to survive, unravel the mystery of the pandemic, and confront the various factions vying for
+        control in the post-apocalyptic wilderness.
+
+        Survival is paramount in "Days Gone," with players facing constant threats from both human enemies and hordes
+        of Freakers. Combat is intense and visceral, requiring careful planning, resource management, and skillful
+        execution. Players can utilize a variety of weapons, traps, and stealth tactics to outmaneuver and defeat
+        their adversaries.
+
+        In addition to combat, players must also contend with the harsh realities of survival in a hostile
+        environment. This includes scavenging for supplies, managing limited resources such as fuel and ammunition,
+        and repairing and upgrading Deacon's motorcycle, his primary means of transportation and survival.
+
+        The dynamic weather system further adds to the immersive experience, with changing weather conditions
+        impacting gameplay and strategy. Rain can dampen visibility and muffle sound, while fog can obscure threats
+        and create opportunities for stealthy approaches. Players must adapt to these environmental factors as they
+        navigate the treacherous wilderness.
+
+        "Days Gone" also features a robust crafting system, allowing players to craft makeshift weapons, explosives,
+        and survival items using materials found in the world. This adds depth to gameplay, as players must carefully
+        consider their crafting choices and prioritize their resources to survive.
+
+        Overall, "Days Gone" offers a compelling blend of gripping storytelling, intense combat, and immersive
+        survival gameplay, creating an unforgettable experience set in a world on the brink of collapse. With its
+        richly detailed world, engaging characters, and adrenaline-fueled action, "Days Gone" stands as a standout
+        title in the survival horror genre.</p>
+
+      <h3>Trailer of Days Gone</h3>
+      <iframe width="1080" height="680" src="https://www.youtube.com/embed/FKtaOY9lMvM"></iframe>
+      <h3>Gameplay of Days Gone</h3>
+      <iframe width="540" height="340" src="https://www.youtube.com/embed/7feJHXTaXPY"></iframe>
+    </div>
+  </div>
+  <div class="banner">
+    <img class="no-select" src="images/day/daybanner.gif" width="750" height="350">
+  </div>
+
+  <button class="end_button" onclick="toTop()">Back To Top</button>
+
+  <footer class="end">
+    <h2>GameInfo</h2>
+    <p>Copyright © 2024 gameinfo.com</p>
+    <div class="social">
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://github.com/Nokky07">
+        <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+        <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.instagram.com/nokky070/">
+        <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
+      </a>
     </div>
 
-    <button class="end_button" onclick="toTop()">Back To Top</button>
-
-    <footer class="end">
-      <h2>GameInfo</h2>
-      <p>Copyright © 2024 gameinfo.com</p>
-      <div class="social">
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://github.com/Nokky07">
-          <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
-          <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.instagram.com/nokky070/">
-          <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
-        </a>
-      </div>
-
-    </footer>
-    <script src="script.js"></script>
-    <script src="top.js"></script>
+  </footer>
+  <script src="script.js"></script>
+  <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>

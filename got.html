@@ -40,200 +40,219 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
-      </div>
-      <div class="info">
-        <h4><u>Summary</u></h4>
-        <p>
-          "Ghost of Tsushima" is an action-adventure game developed by Sucker Punch Productions. Set in the late 13th
-          century, during the first Mongol invasion of Japan, the game follows Jin Sakai, a samurai warrior tasked with
-          defending the island of Tsushima from the Mongol forces. After a devastating defeat at the hands of the
-          Mongols, Jin must abandon his traditional samurai code and adopt unconventional tactics to liberate Tsushima
-          and save his people. As Jin, players explore a vast open-world environment, engage in intense sword combat,
-          and utilize stealth and deception to outmaneuver their enemies. The game is praised for its stunning visuals,
-          immersive world-building, and compelling narrative inspired by Japanese history and culture.</p>
 
-        <h4><u>More Detail</u></h4>
-        <p>
-          "Ghost of Tsushima" is an immersive open-world action-adventure game set in the late 13th century during the
-          first Mongol invasion of Japan. Here's a more detailed overview:
-
-          Setting: The game is set on the island of Tsushima, a lush and diverse landscape inspired by real-world
-          locations in Japan. The island serves as the battleground between the invading Mongol army, led by the
-          ruthless Khotun Khan, and the defenders, primarily the samurai warriors of Tsushima.
-
-          Protagonist: Players assume the role of Jin Sakai, a skilled samurai and one of the few survivors of the
-          initial Mongol invasion. As Jin, players navigate the moral complexities of war as he grapples with the
-          traditional samurai code of honor and the necessity of adopting new, less honorable tactics to defeat the
-          invaders.
-
-          Gameplay: The gameplay combines elements of action, exploration, stealth, and combat. Players have the freedom
-          to explore Tsushima's expansive open-world environment, which features lush forests, rolling hills, serene
-          shrines, and war-torn villages. Exploration is rewarded with hidden collectibles, side quests, and
-          opportunities to learn more about Japanese culture.
-
-          Combat: Combat in "Ghost of Tsushima" emphasizes precision and skill, drawing inspiration from traditional
-          samurai swordplay. Players engage in intense sword fights against Mongol warriors using a variety of
-          techniques, including quick strikes, parries, dodges, and special moves. As players progress, they can unlock
-          new abilities and stances to adapt to different enemy types and combat situations.
-
-          Stealth: In addition to direct combat, players can employ stealth tactics to infiltrate enemy strongholds and
-          ambush unsuspecting foes. Jin can utilize his surroundings to remain hidden, assassinate enemies silently, and
-          create distractions to thin out enemy ranks before engaging in direct combat.
-
-          Visuals and Presentation: "Ghost of Tsushima" is renowned for its stunning visuals, attention to detail, and
-          immersive presentation. The game's art direction captures the beauty of feudal Japan, from its serene
-          landscapes to its intricately designed architecture and costumes. Dynamic weather and lighting effects further
-          enhance the game's atmosphere, creating breathtaking vistas and immersive environments.
-
-          Narrative: The game's narrative explores themes of honor, sacrifice, and the nature of heroism in times of
-          war. As Jin embarks on his quest to liberate Tsushima, he must confront difficult choices and moral dilemmas
-          that challenge his identity as a samurai and force him to question the traditional values he once held dear.
-
-          Reception: "Ghost of Tsushima" received widespread critical acclaim upon its release, praised for its
-          captivating storyline, engaging gameplay, and stunning visuals. The game's depiction of Japanese culture and
-          history was particularly well-received, earning praise for its authenticity and attention to detail. "Ghost of
-          Tsushima" is considered one of the standout titles of the PlayStation 4 generation and has garnered a
-          dedicated fanbase worldwide.</p>
-        <h3>Trailer of Ghost of Tsushima</h3>
-        <iframe width="1080" height="680" src="https://www.youtube.com/embed/iqysmS4lxwQ"></iframe>
-        <h3>Gameplay of Ghost of Tsushima</h3>
-        <iframe width="540" height="340" src="https://www.youtube.com/embed/Geq5b0BHjE0"></iframe>
       </div>
     </div>
-    <div class="banner">
-      <img class="no-select" src="images/got/gotbanner.gif" width="750" height="350">
+    <div class="info">
+      <h4><u>Summary</u></h4>
+      <p>
+        "Ghost of Tsushima" is an action-adventure game developed by Sucker Punch Productions. Set in the late 13th
+        century, during the first Mongol invasion of Japan, the game follows Jin Sakai, a samurai warrior tasked with
+        defending the island of Tsushima from the Mongol forces. After a devastating defeat at the hands of the
+        Mongols, Jin must abandon his traditional samurai code and adopt unconventional tactics to liberate Tsushima
+        and save his people. As Jin, players explore a vast open-world environment, engage in intense sword combat,
+        and utilize stealth and deception to outmaneuver their enemies. The game is praised for its stunning visuals,
+        immersive world-building, and compelling narrative inspired by Japanese history and culture.</p>
+
+      <h4><u>More Detail</u></h4>
+      <p>
+        "Ghost of Tsushima" is an immersive open-world action-adventure game set in the late 13th century during the
+        first Mongol invasion of Japan. Here's a more detailed overview:
+
+        Setting: The game is set on the island of Tsushima, a lush and diverse landscape inspired by real-world
+        locations in Japan. The island serves as the battleground between the invading Mongol army, led by the
+        ruthless Khotun Khan, and the defenders, primarily the samurai warriors of Tsushima.
+
+        Protagonist: Players assume the role of Jin Sakai, a skilled samurai and one of the few survivors of the
+        initial Mongol invasion. As Jin, players navigate the moral complexities of war as he grapples with the
+        traditional samurai code of honor and the necessity of adopting new, less honorable tactics to defeat the
+        invaders.
+
+        Gameplay: The gameplay combines elements of action, exploration, stealth, and combat. Players have the freedom
+        to explore Tsushima's expansive open-world environment, which features lush forests, rolling hills, serene
+        shrines, and war-torn villages. Exploration is rewarded with hidden collectibles, side quests, and
+        opportunities to learn more about Japanese culture.
+
+        Combat: Combat in "Ghost of Tsushima" emphasizes precision and skill, drawing inspiration from traditional
+        samurai swordplay. Players engage in intense sword fights against Mongol warriors using a variety of
+        techniques, including quick strikes, parries, dodges, and special moves. As players progress, they can unlock
+        new abilities and stances to adapt to different enemy types and combat situations.
+
+        Stealth: In addition to direct combat, players can employ stealth tactics to infiltrate enemy strongholds and
+        ambush unsuspecting foes. Jin can utilize his surroundings to remain hidden, assassinate enemies silently, and
+        create distractions to thin out enemy ranks before engaging in direct combat.
+
+        Visuals and Presentation: "Ghost of Tsushima" is renowned for its stunning visuals, attention to detail, and
+        immersive presentation. The game's art direction captures the beauty of feudal Japan, from its serene
+        landscapes to its intricately designed architecture and costumes. Dynamic weather and lighting effects further
+        enhance the game's atmosphere, creating breathtaking vistas and immersive environments.
+
+        Narrative: The game's narrative explores themes of honor, sacrifice, and the nature of heroism in times of
+        war. As Jin embarks on his quest to liberate Tsushima, he must confront difficult choices and moral dilemmas
+        that challenge his identity as a samurai and force him to question the traditional values he once held dear.
+
+        Reception: "Ghost of Tsushima" received widespread critical acclaim upon its release, praised for its
+        captivating storyline, engaging gameplay, and stunning visuals. The game's depiction of Japanese culture and
+        history was particularly well-received, earning praise for its authenticity and attention to detail. "Ghost of
+        Tsushima" is considered one of the standout titles of the PlayStation 4 generation and has garnered a
+        dedicated fanbase worldwide.</p>
+      <h3>Trailer of Ghost of Tsushima</h3>
+      <iframe width="1080" height="680" src="https://www.youtube.com/embed/iqysmS4lxwQ"></iframe>
+      <h3>Gameplay of Ghost of Tsushima</h3>
+      <iframe width="540" height="340" src="https://www.youtube.com/embed/Geq5b0BHjE0"></iframe>
+    </div>
+  </div>
+  <div class="banner">
+    <img class="no-select" src="images/got/gotbanner.gif" width="750" height="350">
+  </div>
+
+  <button class="end_button" onclick="toTop()">Back To Top</button>
+
+  <footer class="end">
+    <h2>GameInfo</h2>
+    <p>Copyright © 2024 gameinfo.com</p>
+    <div class="social">
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://github.com/Nokky07">
+        <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+        <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.instagram.com/nokky070/">
+        <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
+      </a>
     </div>
 
-    <button class="end_button" onclick="toTop()">Back To Top</button>
-
-    <footer class="end">
-      <h2>GameInfo</h2>
-      <p>Copyright © 2024 gameinfo.com</p>
-      <div class="social">
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://github.com/Nokky07">
-          <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
-          <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.instagram.com/nokky070/">
-          <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
-        </a>
-      </div>
-
-    </footer>
-    <script src="script.js"></script>
-    <script src="top.js"></script>
+  </footer>
+  <script src="script.js"></script>
+  <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>

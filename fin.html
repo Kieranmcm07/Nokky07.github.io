@@ -40,178 +40,197 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
-      </div>
-      <div class="info">
-        <h4><u>Summary</u></h4>
-        <p>The Finals is a free, first-person shooter game show where contestants battle for fame in destructible
-          arenas. Imagine a demolition derby meets a team-based shooter. You can customize your character and playstyle
-          to dominate the competition and win tournaments. Blow through walls, build defenses, and outsmart your
-          opponents to become the ultimate champion.</p>
 
-        <h4><u>More Detail</u></h4>
-        <p>
-          The Finals throws you into the heart of a global phenomenon: a virtual combat game show. It's not your typical
-          gladiatorial arena; this is a high-tech free-for-all where teamwork and cunning are just as important as your
-          trigger finger.
-
-          Strap on your VR headset and join a team of two other contestants. You'll be thrust into meticulously crafted
-          arenas that can be ruthlessly manipulated to your advantage. Imagine a sprawling cityscape where you can blast
-          holes through buildings to create shortcuts, or a lush jungle where strategically placed explosions can
-          trigger mudslides to take down your enemies. The environment is your weapon, and mastering its destruction is
-          key to victory.
-
-          But The Finals isn't just about blowing things up. You'll need to work with your teammates to develop a
-          strategy. Do you go in guns blazing, dominating the battlefield with a coordinated assault? Or do you take a
-          more tactical approach, using the environment to create choke points and ambushes?
-
-          Character customization adds another layer of depth. You can choose from a variety of gear and abilities to
-          suit your playstyle. Want to be a nimble scout, flitting around the map and taking down enemies from afar? Or
-          perhaps a heavily armored tank, soaking up damage while your teammates flank the enemy? The choice is yours.
-
-          As you progress through the game, you'll face tougher challenges and climb the competitive ladder. Tournaments
-          pit you against the best of the best, with fame and glory awaiting the ultimate champion. The Finals isn't
-          just a game; it's a chance to etch your name in virtual history and become a legend in the eyes of millions.
-        </p>
-        <h3>Trailer of THE FINALS</h3>
-        <iframe width="1080" height="680" src="https://www.youtube.com/embed/DiSDlPc7r0g"></iframe>
-        <h3>Gameplay of THE FINALS</h3>
-        <iframe width="540" height="340" src="https://www.youtube.com/embed/v3KhWc9f6bU"></iframe>
       </div>
     </div>
-    <div class="banner">
-      <img class="no-select" src="images/fin/finbanner.gif" width="750" height="350">
+    <div class="info">
+      <h4><u>Summary</u></h4>
+      <p>The Finals is a free, first-person shooter game show where contestants battle for fame in destructible
+        arenas. Imagine a demolition derby meets a team-based shooter. You can customize your character and playstyle
+        to dominate the competition and win tournaments. Blow through walls, build defenses, and outsmart your
+        opponents to become the ultimate champion.</p>
+
+      <h4><u>More Detail</u></h4>
+      <p>
+        The Finals throws you into the heart of a global phenomenon: a virtual combat game show. It's not your typical
+        gladiatorial arena; this is a high-tech free-for-all where teamwork and cunning are just as important as your
+        trigger finger.
+
+        Strap on your VR headset and join a team of two other contestants. You'll be thrust into meticulously crafted
+        arenas that can be ruthlessly manipulated to your advantage. Imagine a sprawling cityscape where you can blast
+        holes through buildings to create shortcuts, or a lush jungle where strategically placed explosions can
+        trigger mudslides to take down your enemies. The environment is your weapon, and mastering its destruction is
+        key to victory.
+
+        But The Finals isn't just about blowing things up. You'll need to work with your teammates to develop a
+        strategy. Do you go in guns blazing, dominating the battlefield with a coordinated assault? Or do you take a
+        more tactical approach, using the environment to create choke points and ambushes?
+
+        Character customization adds another layer of depth. You can choose from a variety of gear and abilities to
+        suit your playstyle. Want to be a nimble scout, flitting around the map and taking down enemies from afar? Or
+        perhaps a heavily armored tank, soaking up damage while your teammates flank the enemy? The choice is yours.
+
+        As you progress through the game, you'll face tougher challenges and climb the competitive ladder. Tournaments
+        pit you against the best of the best, with fame and glory awaiting the ultimate champion. The Finals isn't
+        just a game; it's a chance to etch your name in virtual history and become a legend in the eyes of millions.
+      </p>
+      <h3>Trailer of THE FINALS</h3>
+      <iframe width="1080" height="680" src="https://www.youtube.com/embed/DiSDlPc7r0g"></iframe>
+      <h3>Gameplay of THE FINALS</h3>
+      <iframe width="540" height="340" src="https://www.youtube.com/embed/v3KhWc9f6bU"></iframe>
+    </div>
+  </div>
+  <div class="banner">
+    <img class="no-select" src="images/fin/finbanner.gif" width="750" height="350">
+  </div>
+
+  <button class="end_button" onclick="toTop()">Back To Top</button>
+
+  <footer class="end">
+    <h2>GameInfo</h2>
+    <p>Copyright © 2024 gameinfo.com</p>
+    <div class="social">
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://github.com/Nokky07">
+        <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+        <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.instagram.com/nokky070/">
+        <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
+      </a>
     </div>
 
-    <button class="end_button" onclick="toTop()">Back To Top</button>
-
-    <footer class="end">
-      <h2>GameInfo</h2>
-      <p>Copyright © 2024 gameinfo.com</p>
-      <div class="social">
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://github.com/Nokky07">
-          <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
-          <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
-        </a>
-
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.instagram.com/nokky070/">
-          <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
-        </a>
-      </div>
-
-    </footer>
-    <script src="script.js"></script>
-    <script src="top.js"></script>
+  </footer>
+  <script src="script.js"></script>
+  <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>

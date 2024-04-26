@@ -42,173 +42,194 @@
       <div class="heading2">
         <h2>Select A Game Down Below!</h2>
       </div>
+      <div class="container">
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input type="text" placeholder="Search" id="mysearch" maxlength="27" oninput="performSearch()">
+          </div>
+          <span class="clear" onclick="clearSearch()"></span>
+          <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function () {
+              search.classList.toggle('active')
+            }
+          </script>
+        </div>
+      </div>
       <div class="games">
-        <a href="minecraft.html">
+        <a href="minecraft.html" id="Minecraft">
           <button class="button">Minecraft</button>
         </a>
-        <a href="csSelect.html">
+        <a href="csSelect.html" id="Counter-Strike">
           <button class="button">Counter-Strike</button>
         </a>
-        <a href="lolSelect.html">
+        <a href="lolSelect.html" id="Riot Games">
           <button class="button">Riot Games</button>
         </a>
-        <a href="gta.html">
+        <a href="gta.html" id="Grand Theft Auto">
           <button class="button">Grand Theft Auto</button>
         </a>
-        <a href="rust.html">
+        <a href="rust.html" id="Rust">
           <button class="button">Rust</button>
         </a>
-        <a href="terraria.html">
+        <a href="terraria.html" id="Terraria">
           <button class="button">Terraria</button>
         </a>
-        <a href="roblox.html">
+        <a href="roblox.html" id="Roblox">
           <button class="button">Roblox</button>
         </a>
-        <a href="gm.html">
+        <a href="gm.html" id="Garry's Mod">
           <button class="button">Garry's Mod</button>
         </a>
-        <a href="rock.html">
+        <a href="rock.html" id="Rocket League">
           <button class="button">Rocket League</button>
         </a>
         <br> <!--Button Goes To Second Row In HTML Page. -->
-        <a href="apex.html">
+        <a href="apex.html" id="Apex Legends">
           <button class="button">Apex Legends</button>
         </a>
-        <a href="r6.html">
+        <a href="r6.html" id="Rainbow Six Siege">
           <button class="button">Rainbow Six Siege</button>
         </a>
-        <a href="sekiro.html">
+        <a href="sekiro.html" id="Sekiro: Shadows Die Twice">
           <button class="button">Sekiro: Shadows Die Twice</button>
         </a>
-        <a href="sf.html">
+        <a href="sf.html" id="Street Fighter">
           <button class="button">Street Fighter</button>
         </a>
-        <a href="portal.html">
+        <a href="portal.html" id="Portal">
           <button class="button">Portal</button>
         </a>
-        <a href="dbd.html">
+        <a href="dbd.html" id="Dead by Daylight">
           <button class="button">Dead by Daylight</button>
         </a>
-        <a href="farcselect.html">
+        <a href="farcselect.html" id="Far Cry">
           <button class="button">Far Cry</button>
         </a>
-        <a href="ultra.html">
+        <a href="ultra.html" id="Ultrakil">
           <button class="button">Ultrakill</button>
         </a>
         <br> <!--Button Goes To Third Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="overw.html">
+        <a href="overw.html" id="Overwatch">
           <button class="button">Overwatch</button>
         </a>
-        <a href="skull.html">
+        <a href="skull.html" id="Skul: The Hero Slayer">
           <button class="button">Skul: The Hero Slayer</button>
         </a>
-        <a href="dbh.html">
+        <a href="dbh.html" id="Detroit: Become Human">
           <button class="button">Detroit: Become Human</button>
         </a>
-        <a href="battselect.html">
+        <a href="battselect.html" id="Battlefield">
           <button class="button">Battlefield</button>
         </a>
-        <a href="gowselect.html">
+        <a href="gowselect.html" id="God of War">
           <button class="button">God of War</button>
         </a>
-        <a href="foreselect.html">
+        <a href="foreselect.html" id="The Forest">
           <button class="button">The Forest</button>
         </a>
-        <a href="witcherSelect.html">
-          <button class="button">The Witcher Collection</button>
+        <a href="witcherSelect.html" id="The Witcher">
+          <button class="button">The Witcher</button>
         </a>
         <br> <!--Button Goes To Fourth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="watchselect.html">
+        <a href="watchselect.html" id="Watch Dogs">
           <button class="button">Watch Dogs</button>
         </a>
-        <a href="day.html">
+        <a href="day.html" id="Days Gone">
           <button class="button">Days Gone</button>
         </a>
-        <a href="unselect.html">
+        <a href="unselect.html" id="Uncharted">
           <button class="button">Uncharted</button>
         </a>
-        <a href="got.html">
+        <a href="got.html" id="Ghost of Tsushima">
           <button class="button">Ghost of Tsushima</button>
         </a>
-        <a href="fin.html">
+        <a href="fin.html" id="THE FINALS">
           <button class="button">THE FINALS</button>
         </a>
-        <a href="rdrselect.html">
+        <a href="rdrselect.html" id="Red Dead Redemption">
           <button class="button">Red Dead Redemption</button>
         </a>
         <br> <!--Button Goes To Fifth Row In HTML Page. -->
         <!-- Add more games under this line! -->
-        <a href="msc.html">
+        <a href="msc.html" id="My Summer Car">
           <button class="button">My Summer Car</button>
         </a>
-        <a href="mtb.html">
+        <a href="mtb.html" id="Mount & Blade: Warband">
           <button class="button">Mount & Blade: Warband</button>
         </a>
 
-        <div class="info">
-
-          <h4><u>Summary</u></h4>
-          <p>
-            "My Summer Car" is a unique simulation game developed by Amistech Games. Set in rural Finland during the
-            1990s, the game plunges players into the shoes of a teenager tasked with building, maintaining, and
-            upgrading their own car while navigating the challenges of everyday life in the Finnish countryside.
-
-            The game offers a highly detailed and immersive experience, where players must assemble their car from
-            scratch, piece by piece, while ensuring they have enough money for fuel, food, and other necessities.
-            Players are responsible for tuning and maintaining their car, including tasks like adjusting the engine,
-            fixing mechanical issues, and passing vehicle inspections.
-
-            Beyond car mechanics, players must also manage their character's needs, such as hunger, thirst, and fatigue.
-            Exploration of the open world is encouraged, with various activities available including fishing, drinking
-            with friends at the local pub, and participating in amateur rally races.
-
-            Despite its seemingly mundane premise, "My Summer Car" offers a surprisingly deep and engaging gameplay
-            experience, blending simulation, survival, and open-world elements into a humorous and immersive adventure
-            set in the idyllic Finnish countryside.</p>
-
-
-          <h3>Trailer of My Summer Car</h3>
-          <iframe width="1080" height="680" src="https://www.youtube.com/embed/XBitEX-8IcM?loop=1&fs=0&modestbranding=1"></iframe>
-          <h3>Gameplay of My Summer Car</h3>
-          <iframe width="1080" height="680" src="https://www.youtube.com/embed/0KBbBFjGYmQ?loop=1&fs=0&modestbranding=1"></iframe>
-
-        </div>
-
       </div>
     </div>
-    <div class="banner">
+    <div class="info">
 
-      <img class="no-select" src="images/msc/banner.gif" width="750" height="350">
+      <h4><u>Summary</u></h4>
+      <p>
+        "My Summer Car" is a unique simulation game developed by Amistech Games. Set in rural Finland during the
+        1990s, the game plunges players into the shoes of a teenager tasked with building, maintaining, and
+        upgrading their own car while navigating the challenges of everyday life in the Finnish countryside.
+
+        The game offers a highly detailed and immersive experience, where players must assemble their car from
+        scratch, piece by piece, while ensuring they have enough money for fuel, food, and other necessities.
+        Players are responsible for tuning and maintaining their car, including tasks like adjusting the engine,
+        fixing mechanical issues, and passing vehicle inspections.
+
+        Beyond car mechanics, players must also manage their character's needs, such as hunger, thirst, and fatigue.
+        Exploration of the open world is encouraged, with various activities available including fishing, drinking
+        with friends at the local pub, and participating in amateur rally races.
+
+        Despite its seemingly mundane premise, "My Summer Car" offers a surprisingly deep and engaging gameplay
+        experience, blending simulation, survival, and open-world elements into a humorous and immersive adventure
+        set in the idyllic Finnish countryside.</p>
+
+
+      <h3>Trailer of My Summer Car</h3>
+      <iframe width="1080" height="680"
+        src="https://www.youtube.com/embed/XBitEX-8IcM?loop=1&fs=0&modestbranding=1"></iframe>
+      <h3>Gameplay of My Summer Car</h3>
+      <iframe width="1080" height="680"
+        src="https://www.youtube.com/embed/0KBbBFjGYmQ?loop=1&fs=0&modestbranding=1"></iframe>
 
     </div>
 
-    <button class="end_button" onclick="toTop()">Back To Top</button>
+  </div>
+  </div>
+  <div class="banner">
 
-    <footer class="end">
-      <h2>GameInfo</h2>
-      <p>Copyright © 2024 gameinfo.com</p>
-      <div class="social">
+    <img class="no-select" src="images/msc/banner.gif" width="750" height="350">
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://github.com/Nokky07">
-          <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
-        </a>
+  </div>
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
-          <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
-        </a>
+  <button class="end_button" onclick="toTop()">Back To Top</button>
 
-        <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
-          href="https://www.instagram.com/nokky070/">
-          <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
-        </a>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-    <script src="top.js"></script>
+  <footer class="end">
+    <h2>GameInfo</h2>
+    <p>Copyright © 2024 gameinfo.com</p>
+    <div class="social">
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://github.com/Nokky07">
+        <p></p><img class="no-select" src="images/Social/github.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.youtube.com/channel/UCzzGpscAqcUi10T4u-sWyyg">
+        <p></p><img class="no-select" src="images/Social/youtube.svg" width="40" height="35">
+      </a>
+
+      <a style="display: inline-block; justify-content: center; filter: invert(62%) sepia(64%) saturate(6381%) hue-rotate(1deg) brightness(102%) contrast(105%);"
+        href="https://www.instagram.com/nokky070/">
+        <p></p><img class="no-select" src="images/Social/instagram.svg" width="40" height="35">
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="top.js"></script>
+  <script src="search.js"></script>
 </body>
 
 </html>
