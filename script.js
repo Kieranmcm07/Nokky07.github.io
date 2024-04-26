@@ -19,7 +19,7 @@ const typed = new Typed(".auto-type", {
   backSpeed: 150,
   loop: true,
 });
-console.log("Welcome to gameInfo.co.uk.")
+console.log("Welcome to GameInfo.com")
 
 console.log("This is the developer console for ensuring that every file is loaded correctly.")
 

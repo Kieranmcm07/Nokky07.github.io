@@ -29,6 +29,6 @@ function applyCursorRippleEffect(e) {
   ripple.style.animation = `ripple-effect .4s linear`;
   ripple.onanimationend = () => {
     document.body.removeChild(ripple);
-    isRippleAnimating = false; // Reset flag once animation is finished.
+    isRippleAnimating = false;
   };
 }

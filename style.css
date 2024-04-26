@@ -240,6 +240,7 @@ span {
   height: 131px;
   border-radius: 12px;
 }
+
 .rdr_heading img {
   width: 510px;
   height: 262px;
@@ -430,14 +431,113 @@ iframe {
 /* Search Bar */
 
 .search {
-  width: max-content;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 60px;
+  transition: 0.5s;
+  box-shadow: 0 0 0 5px #fe7920;
+  overflow: hidden;
+}
+.search.active {
+  width: 360px;
+}
+.search .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 60px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 14px;
-  border-radius: 28px;
-  background: #f6f6f6;
+  z-index: 1000;
+  cursor: pointer;
 }
 
-.search-input {
-  
+.search .icon::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #FF6600;
+  border-radius: 50%;
+  transform: translate(-4px,-4px);
+}
+
+.search .icon::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 12px;
+  background: #FF6600;
+  border-radius: 50%;
+  transform: translate(6px,6px) rotate(315deg);
+}
+
+.search .input {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search .input input {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 0;
+  line-height: 500px;
+  padding-top: -10px;
+}
+
+.clear {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 15px;
+  background: #999;
+  transform: rotate(45deg);
+}
+
+.clear::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 15px;
+  background: #999;
+  transform: rotate(315deg);
+}
+
+/* Move the search input placeholder text up vertically */
+.search .input input::placeholder {
+  padding-top: 5px;
+  transform: translateY(-50%);/* Adjust the padding value to move the text up */
+}
+/* Move the search input field up vertically */
+.search .input {
+  padding-top: 10px;/* Adjust the padding value to move the input field up */
 }
